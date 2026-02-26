@@ -34,6 +34,7 @@ export default class Chef {
       }
     }
     console.log(images);
+    this.container.removeChild();
     const parapoutine = document.createElement('p');
     parapoutine.innerText = `Nombre totale de poutine(s) : ${poutinecount}`;
     console.log(parapoutine);
